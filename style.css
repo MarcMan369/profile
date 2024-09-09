@@ -1,0 +1,76 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+/* Body Styles */
+body {
+  background-color: #90e0ef;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #0077b6;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Images */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 90px;
+}
+
+/* Headings */
+h1 {
+  color: #0d00fb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #0d00fb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+}
+/* Cards */
+.card {
+  background-color: white;
+  border: 1px solid lightgray;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  /* Add some margin for spacing between cards */
+  margin-bottom: 20px;
+}
+
+/* Center the Content  */
+@media (max-width: 9600px) {
+.container {
+  max-width: 800px; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+}
+/* Discover Le Wagon Button */
+.discover-btn {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 20px; /* Adjust padding for desired size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.discover-btn:hover {
+  background-color: #3399cc;
+}
+
+/* New Styles for Social Block */
+
+/* Container for Social Links and Icons */
+.social-icons {
+  display: flex; /* Arrange icons horizontally */
+}
